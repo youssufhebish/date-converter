@@ -26,10 +26,14 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(
-          'Date Converter'.toUpperCase(),
+        title: Center(
+          child: Text(
+            'Date Converter'.toUpperCase(),
+          ),
         ),
+        elevation: 0.0,
       ),
       body: Center(
         child: Column(
